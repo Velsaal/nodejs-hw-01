@@ -1,3 +1,13 @@
-export const getAllContacts = async () => {};
+const readContacts = require('../utils/readContacts');
 
-console.log(await getAllContacts());
+const getAllContacts = async () => {
+  try {
+    const contacts = await readContacts();
+    console.log(contacts);
+  } catch (error) {
+    console.error("Error getting all contacts:", error);
+  }
+};
+
+getAllContacts();
+
