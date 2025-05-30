@@ -1,4 +1,4 @@
-const { faker } = require("@faker-js/faker");
+import { faker } from "@faker-js/faker";
 
 const createFakeContact = () => ({
   id: faker.string.uuid(),
@@ -8,4 +8,4 @@ const createFakeContact = () => ({
   job: faker.person.jobTitle(),
 });
 
-module.exports = createFakeContact;
+export default createFakeContact;

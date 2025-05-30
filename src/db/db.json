@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "539fe7c8-905e-481c-bb72-ac63434d89ad",
+    "name": "Sheryl Aufderhar",
+    "email": "Nona_Kreiger11@hotmail.com",
+    "phone": "336.788.8575 x2444",
+    "job": "Chief Tactics Engineer"
+  },
+  {
+    "id": "b184d6e0-5f23-42f8-bd5f-88828421efa6",
+    "name": "Alberta Funk",
+    "email": "Sandy55@yahoo.com",
+    "phone": "578-977-7455 x1780",
+    "job": "Direct Solutions Representative"
+  },
+  {
+    "id": "29c257a6-983d-4760-bef8-d42774b28ec4",
+    "name": "Victor Dare",
+    "email": "Delilah89@gmail.com",
+    "phone": "995-781-9017",
+    "job": "Internal Tactics Technician"
+  },
+  {
+    "id": "89ed9984-f843-476a-b39a-acdf5c37ca64",
+    "name": "Jana Bernier",
+    "email": "Kamren_Murphy@gmail.com",
+    "phone": "1-346-795-7306 x708",
+    "job": "Dynamic Functionality Strategist"
+  },
+  {
+    "id": "a6102be2-9fe8-45dd-ace2-5305cdfe5b55",
+    "name": "Laurence Homenick I",
+    "email": "Dallin.Jacobi@gmail.com",
+    "phone": "(895) 850-0151 x930",
+    "job": "International Assurance Analyst"
+  }
+]

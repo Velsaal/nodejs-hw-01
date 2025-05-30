@@ -1,12 +1,8 @@
-const writeContacts = require('../utils/writeContacts');
+import writeContacts from '../utils/writeContacts.js';
 
 const removeAllContacts = async () => {
-  try {
-    await writeContacts([]);
-    return [];
-  } catch (error) {
-    console.error("Error removing all contacts:", error);
-  }
+  await writeContacts([]);
+  console.log("All contacts removed");
 };
 
 removeAllContacts();
